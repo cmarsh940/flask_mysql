@@ -1,0 +1,8 @@
+/*  css reset */
+* {
+	padding: 0px;
+	margin: 5px;
+}
+ #green {
+ 	background-color: lightgreen;
+ }

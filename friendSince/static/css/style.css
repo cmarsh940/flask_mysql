@@ -1,0 +1,28 @@
+/*  css reset  */
+* {
+	padding: 0px;
+	margin: 5px;
+}
+
+.info {
+	width: 600px;
+	border: 2px solid;
+}
+
+form input{
+	display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 99%;
+}
+
+
+th {
+    height: 50px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}

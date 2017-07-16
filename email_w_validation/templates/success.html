@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Success</title>
+	<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+	<p id="green">The email address you entered {{ email }} is a VALID email address! Thank you!</p>
+
+
+	<table>
+      <tr>
+        <th>Email Address Entered:</th>
+      </tr>
+      {% for email in users: %}
+      <tr>
+        <td>{{ email }}</td>
+        <td>{{ created_at }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+</body>
+</html>
